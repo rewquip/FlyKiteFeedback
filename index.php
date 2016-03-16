@@ -1,9 +1,7 @@
 <html>
 <body>
 <?php
-$serverName = "http://darrenlim2012.database.windows.net";
-$connectionInfo = array("Database"=>"FlyKiteFeedback", "UID"=>"darren.lim.2012", "PWD"=>"Password1");
-$conn = sqlsrv_connect($serverName, $connectionInfo);
+$conn = new PDO("sqlsrv:Server=http://darrenlim2012.database.windows.net;Database=FlyKiteFeedback", "darren.lim.2012", "Password1");
 
 if($conn) {
 	echo "Connection established.<br/>";
