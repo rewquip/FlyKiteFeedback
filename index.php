@@ -18,7 +18,7 @@
 		
 		$query = sqlsrv_query($conn, "SELECT * from test");
 		while($obj = sqlsrv_fetch_object($query))
-				echo $obj->name.'<br/>';
+			echo $obj->ID.", ".$obj->Name."<br/>";
 		
 		echo "My first PHP script!";
 	?>
