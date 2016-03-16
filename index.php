@@ -14,8 +14,10 @@
 		
 		$comment = $gender = "";
 		
-		if (empty($_POST["gender"])) {
-			$genderErr = "Gender is required";
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			if (empty($_POST["gender"])) {
+				$genderErr = "Gender is required";
+			}
 		}
 	?>
 	
