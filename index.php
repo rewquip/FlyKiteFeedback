@@ -15,13 +15,21 @@
 		$comment = $gender = "";
 		
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			if (empty($_POST["comment"])) {
+				$comment = "";
+			} else {
+				$comment = $_POST["comment"];
+			}
+			
 			if (empty($_POST["gender"])) {
 				$genderErr = "Gender is required";
+			} else {
+				$gender = $_POST["gender"];
 			}
 		}
 	?>
 	
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
+	<form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>"> 
 		Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 		<br><br>
 		Gender:
