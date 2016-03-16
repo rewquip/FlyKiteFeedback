@@ -29,7 +29,7 @@
 		}
 	?>
 	
-	<form method="post" action="<?php if(empty($_POST["gender"])) { echo $_SERVER["PHP_SELF"] } else { return "success.php" }; ?>"> 
+	<form method="post" action="<?php if($_SERVER["REQUEST_METHOD"] == "POST" && empty($_POST["gender"])) { echo $_SERVER["PHP_SELF"] } else { return "success.php" }; ?>"> 
 		Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 		<br><br>
 		Gender:
