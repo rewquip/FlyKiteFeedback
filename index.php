@@ -6,15 +6,23 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>	
-	<form method="post" action="success.php"> 
-		Rating:
-		<input type="radio" name="rating" value="1">Good
-		<input type="radio" name="rating" value="2">Bad
-		<br><br>
-		Comment:
-		<textarea name="comment" rows="5" cols="40" maxlength="255"></textarea>
-		<br><br>
-		<input type="submit" name="submit" value="Submit"> 
+	<form method="post" action="success.php">
+		<div class="form-group">
+			<label>How would you rate FlyKite's quality of service?:</label><br>
+			<label class="radio-inline">
+				<input type="radio" name="rating" value="1">Good
+			</label>
+			<label class="radio-inline">
+				<input type="radio" name="rating" value="2">Bad
+			</label>
+		</div>
+		<div class="form-group">
+			<label>Do you have any suggestions for FlyKite's improvement?:</label><br>
+			<textarea class="form-control" name="comment" rows="5" maxlength="255"></textarea>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-default" type="submit">Submit
+		</div>
 	</form>
 </body>
 </html>
