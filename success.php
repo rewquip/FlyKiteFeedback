@@ -11,7 +11,10 @@
 		$rating = $_POST["rating"];
 		$comment = $_POST["comment"];
 		
-		$sql = "insert into test (ID, Name) values (?, ?)";
+		echo $rating;
+		echo $comment;
+		
+		$sql = "insert into test (Rating, Comment) values (?, ?)";
 		$params = array($rating, $comment);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
