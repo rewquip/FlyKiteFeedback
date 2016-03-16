@@ -2,7 +2,7 @@
 <body>
 <?php
 $serverName = "http://darrenlim2012.database.windows.net";
-$connectionInfo = array("Database"=>"darrenlim2012", "UID"=>"darren.lim.2012", "PWD"=>"Password1");
+$connectionInfo = array("Database"=>"FlyKiteFeedback", "UID"=>"darren.lim.2012", "PWD"=>"Password1");
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 
 if($conn) {
