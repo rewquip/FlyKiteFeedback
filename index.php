@@ -8,7 +8,7 @@
 <body>	
 	<form method="post" action="success.php">
 		<div class="form-group">
-			<label>How would you rate FlyKite's quality of service?:</label><br>
+			<label>How would you rate FlyKite's quality of service?</label><br>
 			<label class="radio-inline">
 				<input type="radio" name="rating" value="1">Good
 			</label>
@@ -17,7 +17,7 @@
 			</label>
 		</div>
 		<div class="form-group">
-			<label>Do you have any suggestions for FlyKite's improvement?:</label><br>
+			<label>Do you have any suggestions for FlyKite's improvement?</label><br>
 			<textarea class="form-control" name="comment" rows="5" maxlength="255"></textarea>
 		</div>
 		<div class="form-group">
