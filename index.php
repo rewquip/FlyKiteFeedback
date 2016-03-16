@@ -15,6 +15,8 @@
 		$comment = $gender = "";
 		
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			$valid = true;
+			
 			if (empty($_POST["comment"])) {
 				$comment = "";
 			} else {
@@ -23,13 +25,19 @@
 			
 			if (empty($_POST["gender"])) {
 				$genderErr = "Gender is required";
+				$valid = false;
 			} else {
 				$gender = $_POST["gender"];
+			}
+			
+			if($valid){
+				header("location:success.php");
+				exit();
 			}
 		}
 	?>
 	
-	<form method="post" action="<?php if($_SERVER["REQUEST_METHOD"] == "POST" && empty($_POST["gender"])) { echo $_SERVER["PHP_SELF"] } else { return "success.php" }; ?>"> 
+	<form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>"> 
 		Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 		<br><br>
 		Gender:
