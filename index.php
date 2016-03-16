@@ -16,19 +16,9 @@
 			echo "Connected<p>";
 		}
 		
-		$sql = "select * FROM test";
-		
-		$result = mssql_query($sql) 
-			or die('A error occured: ' . mysql_error());
-		
-		$count = mssql_num_rows($result);
-		echo "Showing $count rows:<hr/>\n\n";
-		
-		while ($row = mssql_fetch_assoc($result)) {
-			echo $row['Fieldname'] . "\n";		 
-		}
-		
-		mssql_close($conn);
+		$query = sqlsrv_query($conn, "SELECT * from test");
+		while($obj = sqlsrv_fetch_object($query))
+				echo $obj->name.'<br/>';
 		
 		echo "My first PHP script!";
 	?>
