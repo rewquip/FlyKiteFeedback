@@ -19,7 +19,7 @@
 		$comments = $_POST["comments"];
 		
 		$sql = "insert into Feedback values (?, ?, ?)";
-		$params = array($rating, $comments);
+		$params = array($food, $service, $comments);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
 </body>
