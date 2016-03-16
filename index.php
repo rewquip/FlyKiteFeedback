@@ -1,16 +1,20 @@
 <html>
 <body>
 <?php
-$conn = new PDO("sqlsrv:Server=http://darrenlim2012.database.windows.net;Database=FlyKiteFeedback", "darren.lim.2012", "Password1");
-
-if($conn) {
-	echo "Connection established.<br/>";
-} else {
-	echo "Connection could not be established.<br/>";
-	die(print_r(sqlsrv_errors(), true));
-}
-
-echo "My first PHP script!";
+  try {
+    $hostname = "http://darrenlim2012.database.windows.net";
+    $port = 1433;
+    $dbname = "FlyKiteFeedback";
+    $username = "darren.lim.2012";
+    $pw = "Password1";
+    $dbh = new PDO ("dblib:host=$hostname:$port;dbname=$dbname","$username","$pw");
+  } catch (PDOException $e) {
+    echo "Failed to get DB handle: " . $e->getMessage() . "\n";
+    exit;
+  }
+  
+  echo "My first PHP script!";
 ?>
+
 </body>
 </html>
