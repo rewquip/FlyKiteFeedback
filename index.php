@@ -21,7 +21,7 @@
 		}
 	?>
 	
-	<form method="post"> 
+	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"> 
 		Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
 		<br><br>
 		Gender:
