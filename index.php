@@ -16,11 +16,16 @@
 			echo "Connected<p>";
 		}
 		
-		$query = sqlsrv_query($conn, "SELECT * from test");
-		while($obj = sqlsrv_fetch_object($query))
+		$sql = "insert into test (ID, Name) values (?, ?)";
+		$params = array(5, "Darren5");
+		$stmt = sqlsrv_query($conn, $sql, $params);
+		
+		$sql = "SELECT * from test";
+		$stmt = sqlsrv_query($conn, $sql);
+		while($obj = sqlsrv_fetch_object($stmt))
 			echo $obj->ID.", ".$obj->Name."<br/>";
 		
-		echo "My first PHP script!";
+		echo "<p>My first PHP script!";
 	?>
 </body>
 </html>
