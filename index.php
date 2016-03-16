@@ -12,6 +12,8 @@
 		$params = array(7, "Darren7");
 		$stmt = sqlsrv_query($conn, $sql, $params);
 		
+		$comment = $gender = "";
+		
 		if (empty($_POST["gender"])) {
 			$genderErr = "Gender is required";
 		}
