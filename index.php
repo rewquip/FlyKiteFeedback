@@ -2,7 +2,7 @@
 <body>
 	<?php
 		$serverName = "tcp:darrenlim2012.database.windows.net,1433";
-		$userName = 'darren.lim.2012@darrenlim2012';
+		$userName = 'darren.lim.2012';
 		$userPassword = 'Password1';
 		$dbName = "FlyKiteFeedback";
 		$table = "test";
