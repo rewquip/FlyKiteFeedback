@@ -12,20 +12,23 @@
 		
 		if($conn === false) {
 			FatalError("Failed to connect...");
-		} else {
-			echo "Connected<p>";
 		}
 		
 		$sql = "insert into test (ID, Name) values (?, ?)";
 		$params = array(5, "Darren5");
 		$stmt = sqlsrv_query($conn, $sql, $params);
 		
+		/*
 		$sql = "SELECT * from test";
 		$stmt = sqlsrv_query($conn, $sql);
 		while($obj = sqlsrv_fetch_object($stmt))
 			echo $obj->ID.", ".$obj->Name."<br/>";
+		*/
 		
 		echo "<p>My first PHP script!";
 	?>
+	<script>
+		console.log(<? echo json_encode($conn); ?>);
+	</script>
 </body>
 </html>
