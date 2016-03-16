@@ -22,10 +22,10 @@
 			or die('A error occured: ' . mysql_error());
 		
 		$count = mssql_num_rows($result);
-		print "Showing $count rows:<hr/>\n\n";
+		echo "Showing $count rows:<hr/>\n\n";
 		
 		while ($row = mssql_fetch_assoc($result)) {
-			print $row['Fieldname'] . "\n";		 
+			echo $row['Fieldname'] . "\n";		 
 		}
 		
 		mssql_close($conn);
