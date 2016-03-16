@@ -11,9 +11,10 @@
 
 		sqlsrv_configure('WarningsReturnAsErrors', 0);
 		$conn = sqlsrv_connect($serverName, $connectionInfo);
-		if($conn === false)
-		{
-		 FatalError("Failed to connect...");
+		if($conn === false) {
+			FatalError("Failed to connect...");
+		} else {
+			echo "yay";
 		}
 
 		echo "My first PHP script!";
