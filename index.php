@@ -5,7 +5,6 @@
 		$userName = "darren.lim.2012";
 		$userPassword = "Password1";
 		$dbName = "FlyKiteFeedback";
-		$table = "test";
 		
 		$connectionInfo = array("Database"=>$dbName, "UID"=>$userName, "PWD"=>$userPassword, "MultipleActiveResultSets"=>true);
 		sqlsrv_configure("WarningsReturnAsErrors", 0);
@@ -16,7 +15,21 @@
 		} else {
 			echo "Connected<p>";
 		}
-
+		
+		$sql = "select * FROM test";
+		
+		$result = mssql_query($sql) 
+			or die('A error occured: ' . mysql_error());
+		
+		$count = mssql_num_rows($result);
+		print "Showing $count rows:<hr/>\n\n";
+		
+		while ($row = mssql_fetch_assoc($result)) {
+			print $row['Fieldname'] . "\n";		 
+		}
+		
+		mssql_close($conn);
+		
 		echo "My first PHP script!";
 	?>
 </body>
