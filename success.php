@@ -20,7 +20,7 @@
 		echo $rating;
 		echo $comment;
 		
-		$sql = "insert into Feedback (Rating, Comment) values (?, ?)";
+		$sql = "insert into Feedback values (?, ?)";
 		$params = array($rating, $comment);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
