@@ -14,14 +14,12 @@
 		$connectionInfo = array("Database"=>$dbName, "UID"=>$userName, "PWD"=>$userPassword);
 		$conn = sqlsrv_connect($serverName, $connectionInfo);
 		
-		$rating = $_POST["rating"];
-		$comment = $_POST["comment"];
+		$food = $_POST["food"];
+		$service = $_POST["service"];
+		$comments = $_POST["comments"];
 		
-		echo $rating;
-		echo $comment;
-		
-		$sql = "insert into Feedback values (?, ?)";
-		$params = array($rating, $comment);
+		$sql = "insert into Feedback values (?, ?, ?)";
+		$params = array($rating, $comments);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
 </body>

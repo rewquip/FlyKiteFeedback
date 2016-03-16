@@ -45,27 +45,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="1">
+							<input type="radio" name="food" value="1">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="2">
+							<input type="radio" name="food" value="2">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="3">
+							<input type="radio" name="food" value="3">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="4">
+							<input type="radio" name="food" value="4">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="5">
+							<input type="radio" name="food" value="5">
 						</label>
 					</div>
 				</div>
@@ -77,34 +77,34 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="1">
+							<input type="radio" name="service" value="1">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="2">
+							<input type="radio" name="service" value="2">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="3">
+							<input type="radio" name="service" value="3">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="4">
+							<input type="radio" name="service" value="4">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="rating" value="5">
+							<input type="radio" name="service" value="5">
 						</label>
 					</div>
 				</div>
 			</div>
 			<div class="form-group">
 				<label>Do you have any suggestions for FlyKite's improvement?</label><br>
-				<textarea class="form-control" name="comment" rows="5" maxlength="255"></textarea>
+				<textarea class="form-control" name="comments" rows="5" maxlength="3000"></textarea>
 			</div>
 			<div class="form-group text-center">
 				<button class="btn btn-default" type="submit">Submit
