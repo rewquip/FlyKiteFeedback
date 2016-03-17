@@ -14,8 +14,15 @@
 <body>
 	<div class="col-md-8 col-md-offset-2">
 		<div class="page-header text-center">
-			<h1>FlyKite! Feedback Portal</h1><br>
-			<small>We value your feedback greatly and welcome any comments you may have to help improve our programs and services.</small><p>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-1">
+					<img src="logo.png">
+				</div>
+				<div class="col-md-8">
+					<h1>FlyKite! Feedback Portal</h1>
+					<small>We value your feedback greatly and welcome any comments you may have to help improve our programs and services.</small><p>
+				</div>
+			</div>
 		</div>
 		<form method="post" action="success.php">
 			<div class="form-group">

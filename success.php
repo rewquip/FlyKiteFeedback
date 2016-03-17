@@ -25,7 +25,8 @@
 		$params = array($food, $service, $money, $recommend, $comments);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
-	<div class="text-center" style="margin-top: 290">
+	<div class="text-center" style="margin-top: 190">
+		<img src="logo.png">
 		<h1>Thank You!</h1><p>
 		<small>Your response has been submitted. We will use your feedback for FlyKite's future improvement.</small>
 	</div>
