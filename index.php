@@ -46,27 +46,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Poor">
+							<input type="radio" name="food" value="1 - Poor">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Fair">
+							<input type="radio" name="food" value="2 - Fair">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Average">
+							<input type="radio" name="food" value="3 - Average">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Good">
+							<input type="radio" name="food" value="4 - Good">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Excellent">
+							<input type="radio" name="food" value="5 - Excellent">
 						</label>
 					</div>
 				</div>
@@ -78,27 +78,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="Poor">
+							<input type="radio" name="service" value="1 - Poor">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="Fair">
+							<input type="radio" name="service" value="2 - Fair">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="Average">
+							<input type="radio" name="service" value="3 - Average">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="Good">
+							<input type="radio" name="service" value="4 - Good">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="Excellent">
+							<input type="radio" name="service" value="5 - Excellent">
 						</label>
 					</div>
 				</div>
@@ -132,27 +132,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Strongly Disagree">
+							<input type="radio" name="money" value="1 - Strongly Disagree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Disagree">
+							<input type="radio" name="money" value="2 - Disagree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Neutral">
+							<input type="radio" name="money" value="3 - Neutral">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Agree">
+							<input type="radio" name="money" value="4 - Agree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Strongly Agree">
+							<input type="radio" name="money" value="5 - Strongly Agree">
 						</label>
 					</div>
 				</div>
@@ -164,27 +164,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Strongly Disagree">
+							<input type="radio" name="recommend" value="1 - Strongly Disagree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Disagree">
+							<input type="radio" name="recommend" value="2 - Disagree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Neutral">
+							<input type="radio" name="recommend" value="3 - Neutral">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Agree">
+							<input type="radio" name="recommend" value="4 - Agree">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="Strongly Agree">
+							<input type="radio" name="recommend" value="5 - Strongly Agree">
 						</label>
 					</div>
 				</div>
