@@ -46,27 +46,27 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="1">
+							<input type="radio" name="food" value="Poor">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="2">
+							<input type="radio" name="food" value="Fair">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="3">
+							<input type="radio" name="food" value="Average">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="4">
+							<input type="radio" name="food" value="Good">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="food" value="5">
+							<input type="radio" name="food" value="Excellent">
 						</label>
 					</div>
 				</div>
@@ -78,31 +78,118 @@
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="1">
+							<input type="radio" name="service" value="Poor">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="2">
+							<input type="radio" name="service" value="Fair">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="3">
+							<input type="radio" name="service" value="Average">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="4">
+							<input type="radio" name="service" value="Good">
 						</label>
 					</div>
 					<div class="col-md-2 text-center">
 						<label class="radio-inline">
-							<input type="radio" name="service" value="5">
+							<input type="radio" name="service" value="Excellent">
 						</label>
 					</div>
 				</div>
 			</div>
+			
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-2">
+					</div>
+					<div class="col-md-2 text-center">
+						<label>Strongly Disagree</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label>Disagree</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label>Neutral</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label>Agree</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label>Strongly Agree</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-2">
+						<label>FlyKite's food has good value for money.</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Strongly Disagree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Disagree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Neutral">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Agree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Strongly Agree">
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="row">
+					<div class="col-md-2">
+						<label>I would recommend FlyKite! to others.</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Strongly Disagree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Disagree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Neutral">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Agree">
+						</label>
+					</div>
+					<div class="col-md-2 text-center">
+						<label class="radio-inline">
+							<input type="radio" name="food" value="Strongly Agree">
+						</label>
+					</div>
+				</div>
+			</div>
+			
 			<div class="form-group">
 				<label>Do you have any suggestions for FlyKite's improvement?</label><br>
 				<textarea class="form-control" name="comments" rows="5" maxlength="3000"></textarea>
