@@ -19,10 +19,11 @@
 		$service = $_POST["service"];
 		$money = $_POST["money"];
 		$recommend = $_POST["recommend"];
+		$dish = $_POST["dish"];
 		$comments = $_POST["comments"];
 		
-		$sql = "insert into Feedback values (?, ?, ?, ?, ?)";
-		$params = array($food, $service, $money, $recommend, $comments);
+		$sql = "insert into Feedback values (?, ?, ?, ?, ?, ?)";
+		$params = array($food, $service, $money, $recommend, $dish, $comments);
 		$stmt = sqlsrv_query($conn, $sql, $params);
 	?>
 	<div class="text-center" style="margin-top: 190">

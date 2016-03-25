@@ -19,7 +19,7 @@
 					<img src="logo.png" style="width: 100%;">
 				</div>
 				<div class="col-md-8" style="display: table-cell; vertical-align: middle; float: none;">
-					<h1>FlyKite! Feedback Portal</h1>
+					<h2>FlyKite! Feedback Portal (SG)</h2>
 					<small>We value your feedback greatly and welcome any comments you may have to help improve our programs and services.</small><p>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none; padding: 0;">
 					<label>How would you rate FlyKite's quality of food?</label>
 				</div>
 				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
@@ -75,7 +75,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none; padding: 0;">
 					<label>How would you rate FlyKite's quality of service?</label>
 				</div>
 				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
@@ -124,7 +124,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none; padding: 0;">
 					<label>FlyKite's food has good value for money.</label>
 				</div>
 				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
@@ -154,7 +154,7 @@
 				</div>
 			</div>
 			<div class="form-group row">
-				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none; padding: 0;">
 					<label>I would recommend FlyKite! to others.</label>
 				</div>
 				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
@@ -183,7 +183,40 @@
 					</label>
 				</div>
 			</div>
-			<div class="form-group" style="margin-top: 20">
+			<div class="form-group row">
+				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+				</div>
+				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>Baked Salmon</label>
+				</div>
+				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>Fried Beehoon</label>
+				</div>
+				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>Fried Rice</label>
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-3" style="display: table-cell; vertical-align: middle; float: none; padding: 0;">
+					<label>Which is your favourite FlyKite dish?</label>
+				</div>
+				<div class="col-md-3 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>
+						<input type="radio" name="dish" value="Baked Salmon">
+					</label>
+				</div>
+				<div class="col-md-3 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>
+						<input type="radio" name="dish" value="Fried Beehoon">
+					</label>
+				</div>
+				<div class="col-md-3 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+					<label>
+						<input type="radio" name="dish" value="Fried Rice">
+					</label>
+				</div>
+			</div>
+			<div class="form-group row" style="margin-top: 30">
 				<label>Do you have any suggestions for FlyKite's improvement?</label>
 				<textarea class="form-control" name="comments" rows="5" maxlength="3000"></textarea>
 			</div>
