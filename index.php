@@ -104,7 +104,7 @@
 					</label>
 				</div>
 			</div>
-			<div class="form-group row">
+			<div class="form-group row" style="margin-top: 30">
 				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
 				</div>
 				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
@@ -183,16 +183,16 @@
 					</label>
 				</div>
 			</div>
-			<div class="form-group row">
-				<div class="col-md-2" style="display: table-cell; vertical-align: middle; float: none;">
+			<div class="form-group row" style="margin-top: 30">
+				<div class="col-md-3">
 				</div>
-				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-3 text-center">
 					<label>Baked Salmon</label>
 				</div>
-				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-3 text-center">
 					<label>Fried Beehoon</label>
 				</div>
-				<div class="col-md-2 text-center" style="display: table-cell; vertical-align: middle; float: none;">
+				<div class="col-md-3 text-center">
 					<label>Fried Rice</label>
 				</div>
 			</div>
